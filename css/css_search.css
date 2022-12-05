@@ -1,0 +1,75 @@
+
+
+.like:hover,.comment:hover{
+    background: rgb(22, 22, 223);
+}
+.dislike:hover{
+    background: rgb(8, 8, 26);
+}
+.card{
+    margin: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 300px;
+    height: 250px;
+    border-radius: 25px;
+    background-color: rgb(236, 223, 223);
+    display: inline-block;
+}
+img{
+    width:99.9%;
+    height:85%;
+    border-radius: 25px;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.button{
+    margin-top: 5px;
+    width: 99%;
+    height: 25%px;
+    display: flex;
+}
+ .dislike,.like,.comment{
+    display: flex;
+    width: 45%;
+    border-radius: 25px;
+    border: none;
+    background: rgb(243, 239, 234);
+
+}
+.count{
+    font-size: 20px;
+}
+.dislike:active,.like:active,.comment:active{
+    background: rgb(163, 81, 48);
+}
+.dislike i,.like i,.comment i{
+    margin: auto;
+    font-size: 20px;
+    color: blue;
+}
+input{
+    padding: 15px;
+    align-items: center;
+    display: flex;
+    justify-items: center;
+    margin: auto;
+    border-radius: 25px;
+    width: 70%;
+    height: 50px;
+    position: relative;
+    background: none;
+    font-size: 16px;
+
+}
+.search-button {
+    position: absolute;
+    background: none;
+    font-size: 30px;
+    border: none;
+    top: 0;
+    right: 200px;
+    bottom: 367px;
+    display: flexbox;
+}

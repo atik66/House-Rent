@@ -1,0 +1,108 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    margin: 0;
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    background-color: #ecf0f3; 
+}
+
+.form-wrapper {
+    width: 40%;
+    height: auto;
+    padding: 30px 17px 17px 17px;
+    border-radius: 40px;
+    background: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+}
+
+.user-photo{
+    width: 81px;
+    height: 81px;
+    border-radius: 50%;
+    background: #2b08f1c4;
+    margin: 0 auto;
+    box-shadow: 0px 0px 2px #5f5f5f,
+    0px 0px 0px 5px #ecf0f3,
+    10px 10px 15px #a7aaaf,
+    -8px -8px 15px #ffffff;
+
+}
+.user-photo i {
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #faf5f5;
+    line-height: 1.3;
+}
+.login-form{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    letter-spacing: .6px;
+}
+.input-text{
+    width: 99%;
+    padding: 30px 5.1px 5.1px 5.1px;
+
+}
+.input-text input {
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 16px;
+    color: #555;
+    padding: 15px 5px 10px 2px;
+  }
+  .email,.password,.retype-password,.first-name,.last-name{
+    margin-bottom: 25px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+    inset -8px -8px 8px #ffffff;
+}
+.email i,.password i,
+.retype-password i,.first-name i,.last-name i{  
+    margin: 0 10px -3px 30px;
+    color: blue;
+}
+.sign-btn{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    color: rgb(243, 230, 230);
+    
+    width: 99.9%;
+    height: 40px;
+    margin-bottom: 25px;
+    background-color: blue;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 3px 3px 8px #b1b1b1,
+    -3px -3px 8px #ffffff;
+    transition: 0.5s;
+}
+.sign-btn:hover{
+    background: rgb(19, 19, 107);
+}
+
+.sign-btn:active {
+    background: #7b0ce4;
+}
+.link-class {
+    text-align: center;
+  }
+  
+
+

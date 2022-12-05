@@ -1,0 +1,180 @@
+body{
+    margin:0px;
+    padding: 0 px;
+    height: 100%;
+}
+
+.header{
+    background-color: #454343;
+    height: 90px;
+ display:flex;
+ justify-content: space-between;
+
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo h1{
+    margin-top: 25px;
+    letter-spacing: 8px;
+    margin-left: 10px;
+    color: aliceblue;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+nav{
+    width:35%
+}
+
+nav ul{
+display: flex;
+flex-direction: row;
+
+}
+
+nav ul li{
+    padding: 20px;
+    list-style: none;
+}
+
+nav ul li a{
+    
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+
+.holdcontainer1{
+    height: 550px;
+      background-image: url(sourse/ldp_bg.jpg);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    display: flex;
+    flex-direction:column;
+}
+
+.image h1{
+  margin: auto;
+  font-size: 40px;
+  color: aliceblue;
+}
+
+.image h1{
+  color: aliceblue;
+  letter-spacing: 5px;
+
+}   
+
+.image img{
+    height:110px;
+    width: 150px;
+    margin: auto;
+}
+
+.image p1{
+ margin: auto;
+ color: bisque;
+}
+
+.btncontainer1{
+ margin: 70px;
+ display: flex;
+ justify-content: center;  
+}
+
+.btncontainer1 button{
+    padding: 10px 50px 10px 50px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.ml{
+  
+
+
+}    
+
+.form_predict{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.grid_view{
+    
+   width: 50%;
+}
+
+.grid_view div{
+    float: left;
+    width: 50%;
+    margin-bottom: 11px; 
+}
+.grid_view label{
+  
+}
+
+.grid_view input{
+    padding: 8px;
+    border-radius: 5px;
+    width: 60%;
+    margin: 10px;
+}
+
+.submit {
+    display: flex;
+    justify-content:center;
+}
+
+.submit button{
+    width: 15%;
+border-radius: 5px;
+padding: 8px;
+margin-left: 70px;
+}
+
+.left label{
+    margin-left: 165px;
+}
+
+.left input{
+    margin-left: 170px;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+}
+
+.result div{
+    margin-left: 75px;
+}
